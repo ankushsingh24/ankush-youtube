@@ -1,16 +1,16 @@
-import MusicNoteIcon from "@material-ui/icons/MusicNote";
-import HomeIcon from "@material-ui/icons/Home";
-import CodeIcon from "@material-ui/icons/Code";
-import OndemandVideoIcon from "@material-ui/icons/OndemandVideo";
-import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
-import LiveTvIcon from "@material-ui/icons/LiveTv";
-import SchoolIcon from "@material-ui/icons/School";
-import FaceRetouchingNaturalIcon from "@material-ui/icons/FaceRetouchingNatural";
-import CheckroomIcon from "@material-ui/icons/Checkroom";
-import GraphicEqIcon from "@material-ui/icons/GraphicEq";
-import TheaterComedyIcon from "@material-ui/icons/TheatreComedy";
-import FitnessCenterIcon from "@material-ui/icons/FitnessCenter";
-import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
+import MusicNoteIcon from "@mui/icons-material/MusicNote";
+import HomeIcon from "@mui/icons-material/Home";
+import CodeIcon from "@mui/icons-material/Code";
+import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import LiveTvIcon from "@mui/icons-material/LiveTv";
+import SchoolIcon from "@mui/icons-material/School";
+import FaceRetouchingNaturalIcon from "@mui/icons-material/FaceRetouchingNatural";
+import CheckroomIcon from "@mui/icons-material/Checkroom";
+import GraphicEqIcon from "@mui/icons-material/GraphicEq";
+import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
+import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
+import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 
 export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
