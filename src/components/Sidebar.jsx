@@ -2,7 +2,7 @@ import React from "react";
 import { Stack } from "@mui/material";
 import { categories } from "../utils/constants";
 
-const Sidebar = ({ selectedCategory, setSelectedCategory }) => {
+const Sidebar = ({ selectedCategory, setSelectedCategory }) => (
   <Stack
     direction="row"
     sx={{
@@ -36,7 +36,7 @@ const Sidebar = ({ selectedCategory, setSelectedCategory }) => {
         </span>
       </button>
     ))}
-  </Stack>;
-};
+  </Stack>
+);
 
 export default Sidebar;
