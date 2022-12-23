@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
-import { Feed, VideoDetail } from "./components";
+import { ChannelDetail, Feed, VideoDetail } from "./components";
 
 const App = () => {
   return (
@@ -10,6 +10,7 @@ const App = () => {
         <Routes>
           <Route path="/" exact element={<Feed />} />
           <Route path="/video/:id" element={<VideoDetail />} />
+          <Route path="/channel/:id" element={<ChannelDetail />} />
         </Routes>
       </Box>
     </BrowserRouter>
