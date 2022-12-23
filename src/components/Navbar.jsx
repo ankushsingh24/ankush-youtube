@@ -2,9 +2,9 @@ import React from "react";
 import { Stack } from "@mui/material";
 import { Link } from "react-router-dom";
 import { logo } from "../utils/constants";
-import { SearchBar } from "./SearchBar";
+import SearchBar from "./SearchBar";
 
-const Navbar = () => {
+const Navbar = () => (
   <Stack
     direction="row"
     alignItems="center"
@@ -20,7 +20,7 @@ const Navbar = () => {
       <img src={logo} alt="logo" height={45} />
     </Link>
     <SearchBar />
-  </Stack>;
-};
+  </Stack>
+);
 
 export default Navbar;
